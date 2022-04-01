@@ -1,10 +1,9 @@
 #container{
     position: relative;
     margin : auto;
-    border: 1px red solid;
     height: 50vw;
     width: 50vw;
-    background: url(/Clock_Image.png);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/02/Analogue_clock_face.svg);
     background-size: 100%;
 }
 
@@ -15,11 +14,10 @@
 }
 
 #hour{
-    width: 1%;
+    width: 1.7%;
     height: 17%;
     top: 32%;
-    left: 49.5%;
-    color: blue;
+    left: 48.9%;
     transform-origin: bottom;
     
 }
@@ -28,14 +26,13 @@
     width: 0.8%;
     height: 22%;
     top: 27%;
-    left: 49.7%;
-    color: red;
+    left: 49.5%;
     transform-origin: bottom;
     
 }
 
 #second{
-    width: 0.5%;
+    width: 0.3%;
     height: 26%;
     top: 23%;
     left: 49.7%;
